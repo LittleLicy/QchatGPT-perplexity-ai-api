@@ -10,7 +10,7 @@
 
 ## 使用
 
-- 你需要在`config/config.py`中填入你的pplx API Key，[点击此处](https://www.perplexity.ai/hub/blog/introducing-pplx-api)注册pplx账号并在这里[查看你的API](https://www.perplexity.ai/settings/api),每天5次免费搜索，需要账户里有余额才能获取pplx apikey
+- 你需要在`config/config.py`中填入你的pplx API Key，[点击此处](https://www.perplexity.ai/hub/blog/introducing-pplx-api)注册pplx账号并在这里[查看你的API](https://www.perplexity.ai/settings/api)，每天5次免费搜索，需要账户里有余额才能获取pplx apikey
 
 
 - 模型切换：支持多个llama模型，具体查看[这里](https://docs.perplexity.ai/guides/model-cards)
