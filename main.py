@@ -57,7 +57,7 @@ async def call_pplx_api(query: str) -> str:
         return f"An error occurred: {str(e)}"
 
 # 注册插件
-@register(name="PPLXSearchPlugin", description="Plugin to search using PPLX API", version="0.1", author="Licy12138")
+@register(name="PPLXSearchPlugin", description="使用perplexity.ai搜索互联网的插件", version="0.1", author="Licy12138")
 class PPLXSearchPlugin(BasePlugin):
 
     def __init__(self, host: APIHost):
