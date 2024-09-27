@@ -20,8 +20,9 @@
 
 ## 展示
 
-![image](https://github.com/user-attachments/assets/307cd944-13ee-4725-adb0-2358691d63ba)
 ![image](https://github.com/user-attachments/assets/306ff091-f333-4140-b35a-9015de1b47e7)
+![image](https://github.com/user-attachments/assets/62ed34d4-4e84-4184-a2ea-85ebc3c1ad70)
+
 
 ## PPLX网页版效果
 
