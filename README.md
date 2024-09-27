@@ -20,6 +20,8 @@
 
 ## 展示
 
+聊天默认模型`gpt-4o-mini`，使用的是默认`llama-3.1-sonar-small-128k-online`模型调用pplx api进行搜索
+
 ![image](https://github.com/user-attachments/assets/306ff091-f333-4140-b35a-9015de1b47e7)
 ![image](https://github.com/user-attachments/assets/62ed34d4-4e84-4184-a2ea-85ebc3c1ad70)
 
