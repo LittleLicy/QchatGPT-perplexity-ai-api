@@ -1,4 +1,4 @@
-# Perplexity-API
+## Perplexity-API
 
 一个在互联网进行搜索的插件，使用Perplexity API(以下简称pplx)，具体方法查看[perplexity文档](https://docs.perplexity.ai/home)
 
@@ -17,4 +17,16 @@
 
 
 - 私聊带`#<你要搜索的内容>`或群聊艾特机器人输入`#<你要搜索的内容>`
+
+## 展示
+
+![image](https://github.com/user-attachments/assets/307cd944-13ee-4725-adb0-2358691d63ba)
+![image](https://github.com/user-attachments/assets/306ff091-f333-4140-b35a-9015de1b47e7)
+
+## PPLX网页版效果
+
+![image](https://github.com/user-attachments/assets/d81ec0db-c60b-43b0-9165-35ef92b9a08d)
+
+
+
 
