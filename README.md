@@ -27,7 +27,7 @@
 ![image](https://github.com/user-attachments/assets/62ed34d4-4e84-4184-a2ea-85ebc3c1ad70)
 
 
-## PPLX网页版效果
+## PPLX AI网页版效果
 
 https://www.perplexity.ai/    
 
