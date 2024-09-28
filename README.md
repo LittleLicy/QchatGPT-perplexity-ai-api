@@ -1,6 +1,6 @@
 ## Perplexity-ai-API
 
-一个在互联网进行搜索的插件，使用Perplexity API(以下简称pplx)，具体方法查看[perplexity文档](https://docs.perplexity.ai/home)
+一个在互联网进行搜索的插件，使用Perplexity ai(以下简称pplx)，具体方法查看[perplexity ai文档](https://docs.perplexity.ai/home)
 
 [API调用](https://docs.perplexity.ai/api-reference/chat-completions) 基于llama的联网功能
 
