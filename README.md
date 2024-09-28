@@ -33,7 +33,8 @@ https://www.perplexity.ai/
 
 ~网页可以显示其查询来源，API貌似不行:<~
 
-![image](https://github.com/user-attachments/assets/cdfb90a1-8565-4a96-9f32-8a982a4889b2)
+![image](https://github.com/user-attachments/assets/deef97b0-58f9-4a34-89b8-614653410910)
+
 ![image](https://github.com/user-attachments/assets/d81ec0db-c60b-43b0-9165-35ef92b9a08d)
 
 
