@@ -38,7 +38,7 @@ async def call_pplx_api(query: str) -> str:
         "return_related_questions": False,
         "search_recency_filter": "month",
         "top_k": 0,
-        "stream": False,
+        "stream": False, #流式输出，不推荐使用
         "presence_penalty": 0,
         "frequency_penalty": 1
     }
