@@ -6,7 +6,7 @@
 
 ## 安装方法
 
-对机器人输入指令`!plugin get https://github.com/LittleLicy/QchatGPT-perplexity-api.git`安装
+对机器人输入指令`!plugin get https://github.com/LittleLicy/QchatGPT-perplexity-ai-api.git`安装
 
 ## 使用
 
