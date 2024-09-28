@@ -28,6 +28,8 @@
 
 ## PPLX网页版效果
 
+https://www.perplexity.ai/
+
 ![image](https://github.com/user-attachments/assets/d81ec0db-c60b-43b0-9165-35ef92b9a08d)
 
 
