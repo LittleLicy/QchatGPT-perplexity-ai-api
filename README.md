@@ -1,4 +1,4 @@
-## Perplexity-API
+## Perplexity-ai-API
 
 一个在互联网进行搜索的插件，使用Perplexity API(以下简称pplx)，具体方法查看[perplexity文档](https://docs.perplexity.ai/home)
 
