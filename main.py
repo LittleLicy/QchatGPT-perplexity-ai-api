@@ -22,7 +22,7 @@ async def call_pplx_api(query: str) -> str:
         "messages": [
             {
                 "role": "system",
-                "content": "Be precise and concise."
+                "content": "你的回答简洁而精确。"
             },
             {
                 "role": "user",
