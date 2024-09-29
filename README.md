@@ -35,6 +35,41 @@ https://www.perplexity.ai/
 
 ![image](https://github.com/user-attachments/assets/deef97b0-58f9-4a34-89b8-614653410910)
 
+## API回答参数修改
+
+你可以在`main.py`修改API回答的参数
+
+```python
+
+async def call_pplx_api(query: str) -> str:
+    url = config.API_URL
+    payload = {
+        "model": "llama-3.1-sonar-small-128k-online",
+        "messages": [
+            {
+                "role": "system",
+                "content": "你的回答简洁而精确。"
+            },
+            {
+                "role": "user",
+                "content": query
+            }
+        ],
+        "max_tokens": 4000,  # 默认4000
+        "temperature": 0.2,
+        "top_p": 0.9,
+        "return_citations": True,
+        "search_domain_filter": ["perplexity.ai"],
+        "return_images": False,
+        "return_related_questions": False,
+        "search_recency_filter": "month",
+        "top_k": 0,
+        "stream": False, #API文档的流式输出，不推荐使用，除非你的机器人是官方QQ私聊机器人
+        "presence_penalty": 0,
+        "frequency_penalty": 1
+    }
+```
+
 ![image](https://github.com/user-attachments/assets/d81ec0db-c60b-43b0-9165-35ef92b9a08d)
 
 
