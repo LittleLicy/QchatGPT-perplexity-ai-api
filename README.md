@@ -42,6 +42,8 @@ https://www.perplexity.ai/
 
 ```python
 
+#参数参考：https://docs.perplexity.ai/api-reference/chat-completions
+
 async def call_pplx_api(query: str) -> str:
     url = config.API_URL
     payload = {
@@ -59,11 +61,11 @@ async def call_pplx_api(query: str) -> str:
         "max_tokens": 4000,  # 默认4000
         "temperature": 0.2,
         "top_p": 0.9,
-        "return_citations": True,
+        "return_citations": False, #确定对在线模型的请求是否应返回引用文章,需要你的API有pplx的测试资格
         "search_domain_filter": ["perplexity.ai"],
-        "return_images": False,
-        "return_related_questions": False,
-        "search_recency_filter": "month",
+        "return_images": False, #确定对在线模型的请求是否应返回图像,需要你的API有pplx的测试资格
+        "return_related_questions": False, #同上
+        "search_recency_filter": "month", #值包括 month、week、day、hour
         "top_k": 0,
         "stream": False, #API文档的流式输出，不推荐使用，除非你的机器人是官方QQ私聊机器人
         "presence_penalty": 0,
