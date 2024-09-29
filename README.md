@@ -34,6 +34,7 @@ https://www.perplexity.ai/
 ~网页可以显示其查询来源，API貌似不行:<~
 
 ![image](https://github.com/user-attachments/assets/deef97b0-58f9-4a34-89b8-614653410910)
+![image](https://github.com/user-attachments/assets/d81ec0db-c60b-43b0-9165-35ef92b9a08d)
 
 ## API回答参数修改
 
@@ -69,9 +70,6 @@ async def call_pplx_api(query: str) -> str:
         "frequency_penalty": 1
     }
 ```
-
-![image](https://github.com/user-attachments/assets/d81ec0db-c60b-43b0-9165-35ef92b9a08d)
-
 
 
 
