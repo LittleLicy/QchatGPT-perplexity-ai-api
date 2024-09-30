@@ -13,6 +13,8 @@
 
 - 模型切换：支持多个llama模型，具体查看[这里](https://docs.perplexity.ai/guides/model-cards)
 
+- *只有网页版且是专业订阅（20刀/月）支持`GPT-4o、Claude-3、Sonar Large（LLama 3.1）等模型`*，API不支持
+
 
 - 私聊带`#<你要搜索的内容>`或群聊艾特机器人输入`#<你要搜索的内容>`
 
