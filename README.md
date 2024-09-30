@@ -70,6 +70,8 @@ async def call_pplx_api(query: str) -> str:
         "frequency_penalty": 1
     }
 ```
+## 其他
 
+- 已知问题：Bot调用pplxai的api不扣费(?)
 
 
