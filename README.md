@@ -2,8 +2,6 @@
 
 一个在互联网进行搜索的插件，使用Perplexity ai(以下简称pplx)，具体方法查看[perplexity ai文档](https://docs.perplexity.ai/home)
 
-[API调用](https://docs.perplexity.ai/api-reference/chat-completions) 基于llama的联网功能
-
 ## 安装方法
 
 对机器人输入指令`!plugin get https://github.com/LittleLicy/QchatGPT-perplexity-ai-api.git`安装
