@@ -8,15 +8,14 @@
 
 ## 使用
 
-> 你需要在`config/config.py`中填入你的pplx API Key，[点击此处](https://www.perplexity.ai/hub/blog/introducing-pplx-api)注册pplx账号并在这里[查看你的API](https://www.perplexity.ai/settings/api)，每天5次免费搜索，需要账户里有余额才能获取pplx apikey
+- 你需要在`config/config.py`中填入你的pplx API Key，[点击此处](https://www.perplexity.ai/hub/blog/introducing-pplx-api)注册pplx账号并在这里[查看你的API](https://www.perplexity.ai/settings/api)，每天5次免费搜索，需要账户里有余额才能获取pplx apikey
 
 
-> 模型切换：支持多个llama模型，具体查看[这里](https://docs.perplexity.ai/guides/model-cards)
+- 模型切换：支持多个llama模型，具体查看[这里](https://docs.perplexity.ai/guides/model-cards)
+
+- 私聊带`#<你要搜索的内容>`或群聊艾特机器人输入`#<你要搜索的内容>`
 
 > *只有网页版且是专业订阅（20刀/月）支持`GPT-4o、Claude-3、Sonar Large（LLama 3.1）等模型`*，API不支持
-
-
-> 私聊带`#<你要搜索的内容>`或群聊艾特机器人输入`#<你要搜索的内容>`
 
 ## 展示
 
