@@ -64,7 +64,7 @@ async def call_pplx_api(query: str) -> str:
         return "请求超时，可能是网络连接或者是perplexity.ai出现了问题，请稍后重试"
     except Exception as e:
         print(f"An error occurred: {str(e)}")
-        return "你的API_KEY无效，请查看控制台报错代码，错误代码: 500"
+        return "你的API_KEY无效或者不正确，请查看控制台报错代码，错误代码: 500"
 
 # 注册插件
 @register(name="PPLXSearchPlugin", description="使用perplexity.ai搜索互联网的插件", version="0.1", author="Licy12138")
@@ -80,7 +80,7 @@ class PPLXSearchPlugin(BasePlugin):
         msg = ctx.event.text_message
         if msg.startswith("#"):
             if not config.API_KEY:
-                ctx.add_return("reply", ["你的API_KEY为空,请在config配置你的API_KEY"])
+                ctx.add_return("reply", ["你的API_KEY为空，请在config配置你的API_KEY"])
                 ctx.prevent_default()
                 return
             
