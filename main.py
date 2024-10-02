@@ -29,7 +29,7 @@ async def call_pplx_api(query: str) -> str:
                 "content": query
             }
         ],
-        "max_tokens": 4000,  # 可根据需要调整
+        "max_tokens": 4000,  #参数参考：https://docs.perplexity.ai/api-reference/chat-completions
         "temperature": 0.2,
         "top_p": 0.9,
         "return_citations": True,
