@@ -74,6 +74,7 @@ async def call_pplx_api(query: str) -> str:
 
 ## 其他
 
-- 已知问题：Bot调用pplxai的5次搜索后，继续调用api不扣费
+- API扣费为延迟结算，你如果查询超过5次后，计费不会出现在你的仪表盘上，需要次日才能看扣费情况
+- 计费详细请看[文档](https://docs.perplexity.ai/guides/pricing)，默认的模型**百万token/0.2刀**
 
 
