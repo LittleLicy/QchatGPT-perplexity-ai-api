@@ -8,7 +8,11 @@
 
 ## 使用
 
-- 你需要在`config/config.py`中填入你的pplx API Key，[点击此处](https://www.perplexity.ai/hub/blog/introducing-pplx-api)注册pplx账号并在这里[查看你的API](https://www.perplexity.ai/settings/api)，~~每天5次免费搜索~~(这是bug)，需要账户里有余额才能获取pplx apikey
+- 你需要在`config/config.py`中填入你的pplx API Key，[点击此处](https://www.perplexity.ai/hub/blog/introducing-pplx-api)注册pplx账号并在这里[查看你的API](https://www.perplexity.ai/settings/api)，需要账户里有余额才能获取pplx apikey
+
+- 默认的模型`llama-3.1-sonar-small-128k-online`价格为**百万token/0.2刀**
+
+- 计费详细请看[文档](https://docs.perplexity.ai/guides/pricing)
 
 ```python
 
@@ -85,6 +89,5 @@ async def call_pplx_api(query: str) -> str:
 
 - ~~API扣费为延迟结算，你如果查询超过5次后，计费不会出现在你的仪表盘上，需要次日才能看扣费情况~~
 - 修正：由于某些bug之前不计费，现在只要查询扣费就会出现在你的仪表盘上
-- 计费详细请看[文档](https://docs.perplexity.ai/guides/pricing)，默认的模型**百万token/0.2刀**
 
 
