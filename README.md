@@ -10,6 +10,15 @@
 
 - 你需要在`config/config.py`中填入你的pplx API Key，[点击此处](https://www.perplexity.ai/hub/blog/introducing-pplx-api)注册pplx账号并在这里[查看你的API](https://www.perplexity.ai/settings/api)，~~每天5次免费搜索~~(这是bug)，需要账户里有余额才能获取pplx apikey
 
+```python
+
+# config.py
+# API_KEY获取：https://www.perplexity.ai/hub/blog/introducing-pplx-api
+
+API_KEY = "<your_pplx_api>"  # 替换为你的实际API密钥
+API_URL = "https://api.perplexity.ai/chat/completions"
+
+```
 
 - 模型切换：支持多个llama模型，具体查看[这里](https://docs.perplexity.ai/guides/model-cards)
 
