@@ -28,22 +28,18 @@ API_URL = "https://api.perplexity.ai/chat/completions"
 
 - 私聊带`#<你要搜索的内容>`或群聊艾特机器人输入`#<你要搜索的内容>`
 
-> *只有网页版且是专业订阅（20刀/月）支持`GPT-4o、Claude-3、Sonar Large（LLama 3.1）等模型`*，API不支持
+- 修正：近期的更新，API可以返回搜索来源，具体请看[这里](https://docs.perplexity.ai)，去掉了`"return_citations"`的参数，现在搜索默认返回引用url。
 
 ## 展示
 
 聊天默认模型`gpt-4o-mini`，使用的是默认`llama-3.1-sonar-small-128k-online`模型调用pplx api进行搜索
 
-![image](https://github.com/user-attachments/assets/ab880688-87e2-4a47-b4bc-3aa9fa8500bd)
-![image](https://github.com/user-attachments/assets/306ff091-f333-4140-b35a-9015de1b47e7)
-![image](https://github.com/user-attachments/assets/62ed34d4-4e84-4184-a2ea-85ebc3c1ad70)
-
+![image](https://github.com/user-attachments/assets/00cbc2dc-ba6f-4f02-97f5-f773854712a7)
+![image](https://github.com/user-attachments/assets/efede887-88ee-44e2-8a8b-7acd09979323)
 
 ## PPLX AI网页版效果
 
 https://www.perplexity.ai/    
-
-~网页可以显示其查询来源，API貌似不行:<~
 
 ![image](https://github.com/user-attachments/assets/deef97b0-58f9-4a34-89b8-614653410910)
 ![image](https://github.com/user-attachments/assets/d81ec0db-c60b-43b0-9165-35ef92b9a08d)
@@ -73,7 +69,6 @@ async def call_pplx_api(query: str) -> str:
         "max_tokens": 4000,  # 默认4000
         "temperature": 0.2,
         "top_p": 0.9,
-        "return_citations": False, #确定对在线模型的请求是否应返回引用文章,需要你的API有pplx的测试资格
         "search_domain_filter": ["perplexity.ai"],
         "return_images": False, #确定对在线模型的请求是否应返回图像,需要你的API有pplx的测试资格
         "return_related_questions": False, #同上
