@@ -42,7 +42,7 @@ API_URL = "https://api.perplexity.ai/chat/completions"
 https://www.perplexity.ai/    
 
 ![image](https://github.com/user-attachments/assets/deef97b0-58f9-4a34-89b8-614653410910)
-![image](https://github.com/user-attachments/assets/d81ec0db-c60b-43b0-9165-35ef92b9a08d)
+![image](https://github.com/user-attachments/assets/9b8e61d3-a6f6-4cbf-a671-4f598c211636)
 
 ## API回答参数修改
 
