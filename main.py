@@ -86,7 +86,7 @@ async def call_pplx_api(query: str) -> str:
         citations = response_data.get('citations', [])
         citation_urls = "\n".join(f"- [{i+1}] {url}" for i, url in enumerate(citations))
 
-        result = f"\n搜索来源:\n{citation_urls}\n\n## 内容:\n{content}"
+        result = f"\n## 搜索来源:\n{citation_urls}\n\n## 内容:\n{content}"
         return result
 
     except requests.exceptions.HTTPError as e:
