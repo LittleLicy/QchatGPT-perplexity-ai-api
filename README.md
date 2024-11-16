@@ -1,6 +1,6 @@
-## Perplexity-ai-API
+## Perplexity-ai-API 这是什么？
 
-一个在互联网进行搜索的插件，使用Perplexity ai(以下简称pplx)，具体方法查看[perplexity ai文档](https://docs.perplexity.ai/home)
+一个在互联网进行搜索的插件，[Perplexity](https://www.perplexity.ai/hub/blog/introducing-pplx-api)(以下简称pplx)，使用Python API调用，具体方法查看[perplexity ai文档](https://docs.perplexity.ai/home)
 
 ## 安装方法
 
@@ -32,7 +32,8 @@ API_URL = "https://api.perplexity.ai/chat/completions"
 
 ## 展示
 
-聊天默认模型`gpt-4o-mini`，使用的是默认`llama-3.1-sonar-small-128k-online`模型调用pplx api进行搜索
+默认`llama-3.1-sonar-small-128k-online`模型调用pplx api进行搜索并总结你提问的内容
+群聊`@机器人#<你要搜索的内容>`，或者私聊发送机器人`#<你要搜索的内容>`，可以在不使用自己的模型下进行pplx搜索。
 
 ![image](https://github.com/user-attachments/assets/00cbc2dc-ba6f-4f02-97f5-f773854712a7)
 ![image](https://github.com/user-attachments/assets/53a5bf8f-e570-48fc-a52f-b92e05590984)
@@ -82,7 +83,6 @@ async def call_pplx_api(query: str) -> str:
 
 ## 其他
 
-- ~~API扣费为延迟结算，你如果查询超过5次后，计费不会出现在你的仪表盘上，需要次日才能看扣费情况~~
-- 修正：由于某些bug之前不计费，现在只要查询扣费就会出现在你的仪表盘上
+- [API仪表盘](https://www.perplexity.ai/settings/api)
 
 
