@@ -35,14 +35,14 @@ API_URL = "https://api.perplexity.ai/chat/completions"
 聊天默认模型`gpt-4o-mini`，使用的是默认`llama-3.1-sonar-small-128k-online`模型调用pplx api进行搜索
 
 ![image](https://github.com/user-attachments/assets/00cbc2dc-ba6f-4f02-97f5-f773854712a7)
-![image](https://github.com/user-attachments/assets/efede887-88ee-44e2-8a8b-7acd09979323)
+![image](https://github.com/user-attachments/assets/53a5bf8f-e570-48fc-a52f-b92e05590984)
+![image](https://github.com/user-attachments/assets/44a1c9c2-7fca-4eaa-a671-4013e2fc16e4)
 
 ## PPLX AI网页版效果
 
 https://www.perplexity.ai/    
 
 ![image](https://github.com/user-attachments/assets/deef97b0-58f9-4a34-89b8-614653410910)
-![image](https://github.com/user-attachments/assets/9b8e61d3-a6f6-4cbf-a671-4f598c211636)
 
 ## API回答参数修改
 
