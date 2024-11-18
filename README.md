@@ -26,8 +26,6 @@ API_URL = "https://api.perplexity.ai/chat/completions"
 
 - 模型切换：支持多个llama模型，具体查看[这里](https://docs.perplexity.ai/guides/model-cards)
 
-- 私聊带`#<你要搜索的内容>`或群聊艾特机器人输入`#<你要搜索的内容>`
-
 - 修正：近期的更新，API可以返回搜索来源，具体请看[这里](https://docs.perplexity.ai)，去掉了`"return_citations"`的参数，现在搜索默认返回引用url。
 
 ## 展示
