@@ -33,6 +33,7 @@ API_URL = "https://api.perplexity.ai/chat/completions"
 ## 展示
 
 默认`llama-3.1-sonar-small-128k-online`模型调用pplx api进行搜索并总结你提问的内容
+
 群聊`@机器人#<你要搜索的内容>`，或者私聊发送机器人`#<你要搜索的内容>`，可以在不使用自己的模型下进行pplx搜索。
 
 ![image](https://github.com/user-attachments/assets/00cbc2dc-ba6f-4f02-97f5-f773854712a7)
