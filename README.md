@@ -82,6 +82,8 @@ async def call_pplx_api(query: str) -> str:
 
 ## 其他
 
+- **待复现**：可能需要开代理才能使用，否则返回500错误
+
 - [API仪表盘](https://www.perplexity.ai/settings/api)
 
 
